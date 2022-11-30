@@ -1,0 +1,135 @@
+.header{
+    background: url(../images/back3.jpg) no-repeat center top;
+    font-family: Roboto;
+    top: 0px;
+    left: 0px;
+}
+body{
+    margin: 0px;
+}
+.header__about{
+    color: #FFFFFF;
+}
+.header__fio p{
+    font-weight: 700;
+}
+.header__img{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top:21px;
+}
+.header__fio{
+    display: inline;
+}
+.header__about_text{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 40px;
+    opacity: 0.9;
+}
+.nav_link{
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+    line-height: 250%;
+    margin-left: 52px;
+}
+.nav__link{
+    margin-top: 7px;
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+.about{
+    padding-top: 30px;
+}
+.about_head{
+    font-family: Kanit;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    opacity: 0.9;
+}
+.about_text p{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    font-family: z-PFDinTextCompPro-Bold;
+    text-align: center;
+}
+.header__text p{
+    color: white;
+    font-size: 40px;
+    font-family: 'Kanit';
+    text-align: center;
+    font-weight: 500;
+}
+.project_img{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.project_img img{
+    margin-top: 20px;
+}
+.link{
+    color: lightgreen;
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+}
+.project_img a{
+}
+.or{
+    margin-left: 80px;
+    text-align: center;
+    margin-right: 57px;
+}
+.header__project{
+    padding-bottom: 50px;
+}
+.pro{
+    margin-left: 15px;
+}
+@media(max-width: 800px){
+    .nav__link{
+        margin-left: 0px;
+    }
+}
+@media(max-width: 750px){
+    .header__fio p{
+
+    }
+    .header__gr p{
+
+    }
+    .header__spec p{
+
+    }
+    .header__about_text{
+        margin-left: 30px;
+    }
+}
+@media(max-width:500px){
+    .header__about_text{
+        margin-left: 52px;
+    }
+    .header__img img{
+        margin-left: 40px;
+    }
+}
+@media(max-width:350px){
+    .or{
+        margin-left: 60px;
+    }
+    .pro{
+        margin-left: 3px;
+    }
+}
+@font-family: z-PFDinTextCompPro-Bold;
+@font-family: 'Roboto', sans-serif;
+@font-family: 'Kanit', sans-serif;
